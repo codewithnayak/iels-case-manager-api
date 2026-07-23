@@ -1,0 +1,18 @@
+[
+  {
+    "CaseId": "2024-001",
+    "CrimeType": "Theft",
+    "Description": "Stolen mobile phone",
+    "Status": "Investigation",
+    "Officer": "IO Verma",
+    "StationId": "PS-101"
+  },
+  {
+    "CaseId": "2024-002",
+    "CrimeType": "Assault",
+    "Description": "Street fight incident",
+    "Status": "Trial",
+    "Officer": "IO Rao",
+    "StationId": "PS-101"
+  }
+]
