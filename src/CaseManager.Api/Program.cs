@@ -1,4 +1,5 @@
 using CaseManager.Api.DI;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,7 @@ if (app.Environment.IsDevelopment())
 app.MapControllers();
 //app.UseHttpsRedirection();
 
+app.MapScalarApiReference();
 app.Run();
 
 
